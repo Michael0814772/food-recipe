@@ -8,7 +8,7 @@ function App() {
 
   const [recipe, setRecipe] = useState([]);
   const [query, setQuery] = useState('');
-  const api_key = "6066177a18mshfafc061aa4d7d69p1ac590jsn6ed22129bebd";
+  const api_key = "2cb6635594mshbc47c5a0e03d5d6p1da89ajsn6d54c4d18446";
 
   useEffect(() => {
     fetch(`https://edamam-recipe-search.p.rapidapi.com/search?q=${query}`, {
